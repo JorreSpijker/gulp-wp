@@ -22,8 +22,8 @@ But what if you want to use sass/scss and you want it to be automatically update
 
 	project_name: The name of your project, must be equal to the project you filled in step 2, on line 9.
 	```javascript
-	var theme_name		=	"test"; // This is the name of your theme
-	var project_name	=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
+	var theme_name = "test"; // This is the name of your theme
+	var project_name = "test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
 	````
 0. Run `npm install` in the Terminal.
 0. Make sure you started the local server from "Local".

@@ -4,21 +4,22 @@
 
 /// CONFIG ///
 
-var theme_name 			= "test"; // This is the name of your theme
-var project_name 		=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
+var theme_name = "test"; // This is the name of your theme
+var project_name = "test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
 
 /// VARIABLES ///
 
-var gulp 						= require('gulp');
-var sass 						= require('gulp-sass');
-var clean 					= require('gulp-clean');
-var shell						= require('gulp-shell');
-var plumber 				= require('gulp-plumber');
-var runSequence     = require('run-sequence');
-var browserSync 		= require('browser-sync').create();
-var location_wp 		= "local-sites/" + project_name + "/app/public/wp-content/themes/" + theme_name;
-var location_build 	= "build";
-var version 				= "1.0.0";
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var clean = require('gulp-clean');
+var shell = require('gulp-shell');
+var plumber = require('gulp-plumber');
+var runSequence = require('run-sequence');
+var browserSync = require('browser-sync').create();
+
+var location_wp = "local-sites/" + project_name + "/app/public/wp-content/themes/" + theme_name;
+var location_build = "build";
+var version = "1.0.0";
 
 /// TASKS ///
 
