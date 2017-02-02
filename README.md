@@ -24,7 +24,9 @@ Theme from: Underscores.me
 0. Go to `Appearance` > `Themes` and activate your theme.
 
 ## Use
+
 These steps needs to be done for daily usage:
+
 0. Open "Local" and start the server.
 0. Navigate to the folder where you cloned this project.
 0. Run `gulp`, here you can see all the commands you can use.
