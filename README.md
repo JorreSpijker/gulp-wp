@@ -1,4 +1,4 @@
-# Gulp-wp
+# Gulp-wp :dancer:
 ![macOS](https://img.shields.io/badge/OS-macOS-blue.svg)
 ![Wordpress](https://img.shields.io/wordpress/v/akismet.svg)
 ![Gulp](https://img.shields.io/badge/Gulp-3.9.1-red.svg)
@@ -7,7 +7,7 @@
 Say you want to run a local wordpress environment to create wordpress themes. There are plenty of products that suits for you.
 But what if you want to use sass/scss and you want it to be automatically updated on your wordpress website. Then this product is the right product for you. 
 
-__Theme from: Underscores.me__
+Theme from: Underscores.me
 
 ## Installation
 
@@ -19,11 +19,11 @@ __Theme from: Underscores.me__
 0. Change the following variables:
 	* theme_name: The name of your theme, on line 7
 	```javascript
-	var theme_name 			= "test"; // This is the name of your theme
+	var theme_name	=	"test"; // This is the name of your theme
 	````
 	* project_name: The name of your project, must be equal to the project you filled in step 2, on line 9.
 	```javascript
-	var project_name 		=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
+	var project_name	=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
 	````
 0. Run `npm install` in the Terminal.
 0. Make sure you started the local server from "Local".
@@ -43,4 +43,4 @@ These steps needs to be done for daily usage:
 0. Run `gulp watch` and start editing the files.
 0. Now the changes will compile automatically and deploy automatically to the local wordpress directory. The browser will reload automatically.
 
-** Version 1.0.0 **
+*Version 1.0.0*
