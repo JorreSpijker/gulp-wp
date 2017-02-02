@@ -13,8 +13,8 @@ Theme from: Underscores.me
 0. Create a new project. Choose the projectname wisely.
 0. Open the "gulpfile.js".
 0. Change the following variables:
-		- theme_name: The name of your theme.
-		- project_name: The name of your project, must be equal to the project you filled in step 2.
+	0.theme_name: The name of your theme.
+	0.project_name: The name of your project, must be equal to the project you filled in step 2.
 0. Run `npm install` in the terminal.
 0. Make sure you started the local server from "Local".
 0. Run `gulp`
