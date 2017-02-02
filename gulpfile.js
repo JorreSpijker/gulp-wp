@@ -1,3 +1,12 @@
+///////////////////
+// Version 1.0.0 //
+///////////////////
+
+/// CONFIG ///
+
+var theme_name 			= "test"; // This is the name of your theme
+var project_name 		=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
+
 /// VARIABLES ///
 
 var gulp 						= require('gulp');
@@ -7,13 +16,9 @@ var shell						= require('gulp-shell');
 var plumber 				= require('gulp-plumber');
 var runSequence     = require('run-sequence');
 var browserSync 		= require('browser-sync').create();
-
-/// Config ///
-
-var theme_name 			= "test"; // This is the name of your theme
-var project_name 		=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
 var location_wp 		= "local-sites/" + project_name + "/app/public/wp-content/themes/" + theme_name;
 var location_build 	= "build";
+var version 				= "1.0.0";
 
 /// TASKS ///
 
@@ -27,6 +32,8 @@ gulp.task('default', function(){
 	console.log("  gulp clean  │  Clean build directory");
 	console.log("  gulp deploy │  Deploy to local wordpress server");
 	console.log("  gulp watch  │  Watch changes, build and deploy automatically");
+	console.log(" ");
+	console.log("  Version: " + version);
 	console.log(" ");
 });
 

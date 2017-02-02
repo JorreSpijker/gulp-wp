@@ -4,10 +4,10 @@
 ![Gulp](https://img.shields.io/badge/Gulp-3.9.1-red.svg)
 ![Local](https://img.shields.io/badge/Local-1.3.0-brightgreen.svg)
 
+Say you want to run a local wordpress environment to create wordpress themes. There are plenty of products that suits for you.
+But what if you want to use sass/scss and you want it to be automatically updated on your wordpress website. Then this product is the right product for you. 
 
-# In beta ;)
-
-Theme from: Underscores.me
+**Theme from: Underscores.me**
 
 ## Installation
 
@@ -17,8 +17,8 @@ Theme from: Underscores.me
 0. Clone or download this project and put it in a place of choice.
 0. Open the "gulpfile.js".
 0. Change the following variables:
-	0. theme_name: The name of your theme, on line 13
-	0. project_name: The name of your project, must be equal to the project you filled in step 2, on line 14.
+	0. theme_name: The name of your theme, on line 7
+	0. project_name: The name of your project, must be equal to the project you filled in step 2, on line 9.
 0. Run `npm install` in the Terminal.
 0. Make sure you started the local server from "Local".
 0. Run `gulp`, here you can see all the commands you can use.
@@ -36,3 +36,5 @@ These steps needs to be done for daily usage:
 0. Run `gulp`, here you can see all the commands you can use.
 0. Run `gulp watch` and start editing the files.
 0. Now the changes will compile automatically and deploy automatically to the local wordpress directory. The browser will reload automatically.
+
+** Version 1.0.0**
