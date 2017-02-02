@@ -17,11 +17,12 @@ Theme from: Underscores.me
 0. Clone or download this project and put it in a place of choice.
 0. Open the "gulpfile.js".
 0. Change the following variables:
-	0. theme_name: The name of your theme.
-	0. project_name: The name of your project, must be equal to the project you filled in step 2.
+	0. theme_name: The name of your theme, on line 13
+	0. project_name: The name of your project, must be equal to the project you filled in step 2, on line 14.
 0. Run `npm install` in the Terminal.
 0. Make sure you started the local server from "Local".
 0. Run `gulp`, here you can see all the commands you can use.
+0. Run `gulp build`, this will compile all the files in the src folder.
 0. Run `gulp deploy`, this will send the `/build` folder to the local wordpress theme directory.
 0. Go to [projectname].dev and login with the admin information you filled in step 1.
 0. Go to `Appearance` > `Themes` and activate your theme.

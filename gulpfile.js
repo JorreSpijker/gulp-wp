@@ -5,14 +5,14 @@ var sass 						= require('gulp-sass');
 var clean 					= require('gulp-clean');
 var shell						= require('gulp-shell');
 var plumber 				= require('gulp-plumber');
-var runSequence     = require('run-sequence').use(gulp);
+var runSequence     = require('run-sequence');
 var browserSync 		= require('browser-sync').create();
 
-/// Config
+/// Config ///
 
-var theme_name 			= "test";  // Needs to be the same as the 'Local' theme name
-var project_name 		=	"test"
-var location_wp 		= "local-sites/" + project_name + "/app/public/wp-content/themes/" + theme_name; // Make sure the folder where the 'Local' websites are stored is the right one.
+var theme_name 			= "test"; // This is the name of your theme
+var project_name 		=	"test"; // This is the name of your wordpress project. It needs to be equal to the 'Local' folder where wordpress is installed.
+var location_wp 		= "local-sites/" + project_name + "/app/public/wp-content/themes/" + theme_name;
 var location_build 	= "build";
 
 /// TASKS ///
@@ -58,7 +58,8 @@ gulp.task('php', function(){
 		.pipe(gulp.dest(location_build))
 		.pipe(browserSync.reload({
             stream: true
-        }));
+        })
+		);
 })
 
 
